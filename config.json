@@ -2,7 +2,6 @@
     "_description": "시스템 설정 값 제어 파일: 쿠팡 링크, 오픈톡 주소, 분석 임계값 등을 실시간으로 변경합니다.",
     "MIN_COMPETITORS_FOR_ANALYSIS": 10,
     "SUPPORT_KAKAOTALK_LINK": "https://open.kakao.com/o/gJzfCdfi",
-    "_SUPPORT_KAKAOTALK_CODE_COMMENT": "4989ai",
-    "SUPPORT_KAKAOTALK_CODE": "",
+    "SUPPORT_KAKAOTALK_CODE": "4989ai",
     "COUPANG_HOME_LINK": "https://link.coupang.com/a/dHOehc"
 }
