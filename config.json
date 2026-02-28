@@ -1,5 +1,10 @@
 {
-    "_description": "시스템 설정 값 제어 파일: 오픈톡 주소, 분석 임계값, 디버그 설정 등을 실시간으로 변경합니다.",
+    "_description": "시스템 설정 값 제어 파일: 오픈톡 주소, 분석 임계값, 개발자 정보, 디버그 설정 등을 실시간으로 변경합니다.",
+    "DEVELOPER": {
+        "CHANNEL_NAME": "AI 중개보조 | 중개업 자동화",
+        "YOUTUBE_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA",
+        "WEBSITE_URL": ""
+    },
     "MIN_COMPETITORS_FOR_ANALYSIS": 10,
     "EARLY_EXIT_THRESHOLD": 8,
     "SUPPORT_KAKAOTALK_LINK": "https://open.kakao.com/o/gJzfCdfi",
