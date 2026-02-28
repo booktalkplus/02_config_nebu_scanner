@@ -1,0 +1,39 @@
+{
+    "_description": "네이버 부동산 API/DOM 선택자 원격 관리 파일. 네이버 변경 시 확장 프로그램 업데이트 없이 즉시 대응 가능합니다.",
+
+    "API_PATTERNS": {
+        "LOGIN_DETECT": "nid.naver.com/nidlogin.login",
+        "ARTICLE_DETAIL": [
+            "/api/articles/{id}",
+            "/front-api/v1/article/detail/{id}",
+            "/api/articleDetail/{id}"
+        ],
+        "ARTICLE_PAGE": "https://new.land.naver.com/complexes?articleNo={id}",
+        "LIST_API": [
+            "/api/complexes/",
+            "/api/houses",
+            "/api/offices",
+            "/api/articles"
+        ],
+        "LIST_API_EXCLUDE": "/detail/",
+        "SEARCH_BASE": {
+            "COMPLEX": "https://new.land.naver.com/complexes",
+            "HOUSE": "https://new.land.naver.com/houses",
+            "OFFICE": "https://new.land.naver.com/offices",
+            "DEFAULT": "https://new.land.naver.com/articles"
+        }
+    },
+
+    "DOM_SELECTORS": {
+        "PRICE": [".price_area .price", ".detail_price .price", ".info_article_price", "[class*=\"price\"]"],
+        "AREA": [".info_area", ".detail_area", "[class*=\"area\"]"],
+        "TITLE": [".article_title", ".detail_title", "h1", "[class*=\"title\"]"],
+        "DESCRIPTION": [".article_description", ".detail_description", "[class*=\"description\"]"],
+        "INFO_TABLE": ".info_table_item",
+        "TABLE_HEADER": ".table_th",
+        "TABLE_DATA": ".table_td",
+        "SCROLL_TARGET": ".list_contents",
+        "ARTICLE_ID_ATTRS": ["data-atcl-no", "data-article-no", "data-articleno"],
+        "ARTICLE_LINK": "a[href*=\"articleNo\"]"
+    }
+}
