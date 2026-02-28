@@ -10,6 +10,6 @@
     "SUPPORT_KAKAOTALK_LINK": "https://open.kakao.com/o/gJzfCdfi",
     "SUPPORT_KAKAOTALK_CODE": "4989ai",
     "ENABLE_CONSOLE_LOG": false,
-    "ENABLE_DEBUG_LOG_STORAGE": true,
+    "ENABLE_DEBUG_LOG_STORAGE": false,
     "SHOW_DEBUG_LOG_BUTTON": false
 }
