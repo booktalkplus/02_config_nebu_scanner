@@ -8,7 +8,7 @@
     "MIN_COMPETITORS_FOR_ANALYSIS": 10,
     "EARLY_EXIT_THRESHOLD": 8,
     "SUPPORT_KAKAOTALK_LINK": "https://open.kakao.com/o/gJzfCdfi",
-    "_SUPPORT_KAKAOTALK_CODE": "",
+    "SUPPORT_KAKAOTALK_CODE": "없어요",
     "ENABLE_CONSOLE_LOG": false,
     "ENABLE_DEBUG_LOG_STORAGE": false,
     "SHOW_DEBUG_LOG_BUTTON": false
