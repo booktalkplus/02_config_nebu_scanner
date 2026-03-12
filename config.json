@@ -2,7 +2,8 @@
     "_description": "시스템 설정 값 제어 파일: 오픈톡 주소, 분석 임계값, 개발자 정보, 디버그 설정 등을 실시간으로 변경합니다.",
     "DEVELOPER": {
         "CHANNEL_NAME": "중개업무 자동화 도구 무료 배포",
-        "YOUTUBE_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA",
+        "_YOUTUBE_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA",
+        "YOUTUBE_URL": "https://booktalkplus.github.io/HTML",
         "WEBSITE_URL": "https://booktalkplus.github.io/HTML"
     },
     "MIN_COMPETITORS_FOR_ANALYSIS": 10,
